@@ -27,3 +27,17 @@ img{
   height: auto;
   margin: 0 auto;
 }
+#img-caption{
+    margin: 15px 0 5px 0;
+    font-size: 1.2rem;
+}
+h2{
+    margin: 50px 0;
+    text-align: center;
+}
+ul{
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+}
