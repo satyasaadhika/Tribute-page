@@ -1,78 +1,44 @@
-body{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
-    font-size: 1.6rem;
-    line-height: 1.5;
+
+*{
+    background-color:#dddddd;
+    }
+#main{
+    max-width:1200px;
+    max-height:100px;
+    margin:30px auto;
+    padding:15px;
+    background-color: #dddddd;
+    border-radius:5px;
+}
+#title{
     text-align: center;
-    color: #333;
-    margin: 0;
 }
-.main{
-    margin: 30px 8px;
-    padding: 15px;
-    border-radius: 5px;
-    background: #eee;
+#main > p{
+    text-align: center;
 }
-h1{
-    font-size: 4rem;
-    margin-bottom: 0;
-}
-.img-div{
-    background-color: rgb(245, 250, 250);
-    padding: 10px;
-    margin-left: 300px;
-    margin-right: 300px; 
-    border: 4px solid rgb(119, 144, 144); 
-    border-radius: 5%;
+#img-div{
+    max-width:600px;
+    margin:0 auto;
+    padding:15px;
+    background-color:#ffffff;
 }
 #image{
-  width: 70%;
-  display: block;
-  height: auto;
-  margin: 0 auto;
+    display:block;
+    max-width:100%;
+    padding-bottom:16px;
 }
-#img-caption{
-    margin: 15px 0 5px 0;
-    font-size: 1.0rem;
-    font-weight: 600;
-  
+#tribute-info{
+    max-width:600px;
+    margin:0 auto;
 }
-h3{
-    margin: 50px 0;
+#tribute-info >h2{
     text-align: center;
-    text-decoration:underline;
 }
-ul{
-    max-width: 550px;
-    margin: 0 auto 50px auto;
-    text-align: left;
-    line-height: 1.6;
+#tribute-info > ul li{
+    margin-bottom:10px;
+    line-height:16px;
 }
-ul li{
-    margin: 16px 0;
-    font-size: 1.2rem;
-    list-style-type: square;
-}
-ul li b{
-    font-size: 1.3rem;
-}
-blockquote{
-    font-style: italic;
-    max-width: 545px;
-    margin: 0 auto 50px auto;
-    text-align: left;
-    font-size: 1.5rem;
-}
+        
 h4{
-    font-size: 1.42rem;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-a{
-    font-size: 1.3rem;
-    font-weight: bold;
-    text-decoration: none;
-    margin:auto;
-    color: blue;
-}
-a:hover{
-    color: purple;
+    text-align: center;
 }
